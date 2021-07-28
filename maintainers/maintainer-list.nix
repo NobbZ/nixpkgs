@@ -12214,4 +12214,10 @@
     github = "zupo";
     githubId = 311580;
   };
+  llelievr = {
+    name = "Lucas Lelievre";
+    email = "llelievr2@gmail.com";
+    github = "loucass003";
+    githubId = 3948904;
+  };
 }
