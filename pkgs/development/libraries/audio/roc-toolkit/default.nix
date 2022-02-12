@@ -46,7 +46,6 @@ stdenv.mkDerivation rec {
     [ "--build=${stdenv.buildPlatform.config}"
       "--host=${stdenv.hostPlatform.config}"
       "--prefix=${placeholder "out"}"
-      "--disable-sox"
       "--disable-doc"
       "--disable-tests" ] ++
     lib.optional (!soxSupport) "--disable-sox" ++
